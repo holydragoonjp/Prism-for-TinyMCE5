@@ -67,12 +67,12 @@ Prismではプラグインの導入により、様々な表示をさせること
 
 ## 【English】
 ### What is this plugin?
-This is a plugin for adding syntax highlighting by adding a button of Prism.js (https://prismjs.com/) to TinyMCE 4.
+This is a plugin for adding syntax highlighting by adding a button of Prism.js (https://prismjs.com/) to TinyMCE 5.
 
 ### Usage
-In the plugin folder of the folder of the TinyMCE 4 of the server that is used by the contents, use ASCII Please upload in mode.
+In the plugin folder of the folder of the TinyMCE 5 of the server that is used by the contents, use ASCII Please upload in mode.
 
-In order to use this plugin, please insert "prism" into plugins and toolbar of tinymce.init which is the setting of TinyMCE 4 respectively.
+In order to use this plugin, please insert "prism" into plugins and toolbar of tinymce.init which is the setting of TinyMCE 5 respectively.
 For Example:
 <pre><code>plugins: [
 	'advlist autolink lists link image charmap print preview anchor pagebreak prism'

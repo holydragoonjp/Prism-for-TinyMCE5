@@ -3,7 +3,7 @@
  TinyMCE5 prismプラグイン / prism plugin for TinyMCE5
 
  ライセンス / License：LGPL
- ver.1.0.0 (2020/04/10)
+ ver.1.1.0 (2020/05/06)
  Homepage : https://holydragoon.jp/
  Copyright(C) 2018-2020 Kaori MINAKATA.
 
@@ -68,16 +68,22 @@
 							label: 'Line Number',
 						},
 						{
-							type: 'input',
-							name: 'firstline',
-							label: 'First Line',
-							disabled: false
-						},
-						{
-							type: 'input',
-							name: 'highlight',
-							label: 'Highlight',
-							disabled: false
+							type: 'grid',
+							columns: 2,
+							items: [
+								{
+									type: 'input',
+									name: 'firstline',
+									label: 'First Line',
+									disabled: false
+								},
+								{
+									type: 'input',
+									name: 'highlight',
+									label: 'Highlight',
+									disabled: false
+								},
+							]
 						},
 					]
 				},
